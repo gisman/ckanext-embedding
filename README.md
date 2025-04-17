@@ -67,7 +67,7 @@ Compatibility with core CKAN versions:
 
 ## Installation
 
-solr managed_schema 수정.
+1. solr managed_schema 수정.
 
 * knn_vector 타입 추가
 ```xml
@@ -78,6 +78,15 @@ solr managed_schema 수정.
 ```xml
 <field name="vector" type="knn_vector" multiValued="false" indexed="true" stored="true"/>
 ```
+
+2. 익스텐션 설치
+
+NOT DOCUMENTED YET!!!
+
+3. ckan.ini 수정
+
+plugins = embedding
+
 
 NOT DOCUMENTED YET!!!
 
